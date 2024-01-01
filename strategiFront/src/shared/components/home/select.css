@@ -1,0 +1,19 @@
+select {
+    color: gray;
+  }
+  
+  select:hover,
+  select:focus,
+  select:active,
+  select:checked {
+    color:gray
+  }
+  
+  option {
+    color: #333;
+    background-color: #333;
+  }
+  
+  option[value=""][disabled] {
+    display: none;
+  }
